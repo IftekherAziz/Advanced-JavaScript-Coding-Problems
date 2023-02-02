@@ -20,3 +20,8 @@ console.log(friends.includes(13));
 if(friends.indexOf(13) != -1){
     console.log('13 is available');
 }
+
+// Concatenate array
+const newFriends = [12, 13, 11, 13];
+const allFriends = newFriends.concat(friends);
+console.log(allFriends);
